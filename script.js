@@ -46,7 +46,7 @@ function rezultats() {
   m1 = m.m1; m2 = m.m2; m3 = m.m3
   console.log(m1, m2, m3);
   if (!nolasa()) {
-    t = "Nekorekti ievaddati trijstūra malu vērtībām ir jāūt lielākām par 0";
+    t = "Nekorekti ievaddati, trijstūra malu vērtībām ir jābūt lielākām par 0";
   } else {
     if (irTrijsturis(m1, m2, m3) == false) {
       t = "Trijstūris nēeksistē,jo jebkuru 2 malu garumum summai ir jābūt lielākai par trešo malu!";
