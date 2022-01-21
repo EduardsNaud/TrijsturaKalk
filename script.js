@@ -69,6 +69,6 @@ function izvadaTekstu() {
   console.log(teksts);
   const sakne = document.getElementById("izvade");
   const raksti = document.createElement("p");
-  raksti.innerHTML = teksts;
+  sakne.innerHTML = teksts;
   sakne.appendChild(raksti);
 }
